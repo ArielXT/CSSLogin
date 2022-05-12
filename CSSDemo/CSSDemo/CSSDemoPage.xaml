@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:CSSDemo" 
+             x:Class="CSSDemo.CSSDemoPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles.css" />
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Bienvenido al Test de un login con CSS!"  />
+        <StackLayout StyleId="LoginForm">
+            <Entry Placeholder="Correo" StyleId="correo"/>
+            <Entry Placeholder="Contraseña" IsPassword="true" StyleId="contra"/>
+            <Button Text="Iniciar Sesion" StyleClass="primary" />
+            <Button Text="Olvidaste la Contraseña?" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

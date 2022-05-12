@@ -1,0 +1,42 @@
+^ContentPage {
+    background-color: #E06D06;
+    padding: 15;
+}
+^Label {
+    text-align: center;
+    font-style: bold;
+    font-size: 30;
+    color: #FAFF81;
+}
+#LoginForm {
+    background-color: #FAFF81;
+    padding: 15;
+    border-radius: 5;
+    margin-top: 20
+}
+#correo {
+    font-size: 30;
+    background-color: #161032;
+    margin: 10 0;
+    color: #FFC53A;
+    border-width: 10;
+}
+#contra {
+    font-size: 30;
+    background-color: #161032;
+    margin: 10 0;
+    color: #FFC53A;
+    border-width: 10;
+}
+^Button {
+    font-size: 16;
+    color: white;
+    margin: 5 0;
+}
+^Button.primary {
+    background-color: #902923;
+    color: #FFFFFF;
+    font-size: 20;
+    margin: 15 0;
+    border-radius: 5;
+}
